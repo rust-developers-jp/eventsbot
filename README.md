@@ -1,3 +1,4 @@
 # EventsBot
 
-A bot for managing events on the Rust Developers JP Discord server.
+Rust Developers JPのイベント用BOT。
+イベント時にしか動きません。

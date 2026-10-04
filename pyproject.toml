@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools >= 82"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "events-bot"
+description = "A bot for managing events on the Rust Developers JP Discord server."
+version = "0.1.0"
+requires-python = ">=3.14"
+readme = "README.md"
+license-files = ["LICENSE"]
+
+[project.dependencies]
+discord.py==2.7.1
+
+[[project.authors]]
+name = "Kai Tomotake"
+email = "rustacean@mail.rust-lang.jp"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+include = ["eventsbot"]
